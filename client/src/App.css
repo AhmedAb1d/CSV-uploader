@@ -1,0 +1,48 @@
+
+
+.container{
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: radial-gradient(ellipse at center,#e97d6f 0,#982819 100%);
+  width:40%;
+  height:30%;  
+  border:5px rgb(39, 36, 36);
+  border-radius:12px;
+  text-align:center;
+  color: white;
+  z-index: 20;
+  transition: all 0.3s ease-out;
+  box-shadow: 0 0 0 1px rgba(255,255,255,.05),inset 0 0 .25em 0 rgba(0,0,0,.25);
+}
+
+.field{
+  cursor:pointer;
+  
+}
+
+
+.btn{
+  background-color: white; /* Green */
+  border: none;
+  color: #954136;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius:12px;
+  margin:20px;
+  
+}
+
+.btn:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor:pointer;
+  opacity:0.9;
+}
+
+.logo{
+  height:100px;
+  weight:100px;
+}
