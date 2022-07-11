@@ -9,6 +9,7 @@ import pandas as pd
 from os.path import exists
 
 """
+
 a=exists("client/public/uploads/Train.csv")
 print(a)
 b=exists("client/public/uploads/Test.csv")
@@ -18,7 +19,7 @@ while (a ==False or b ==False):
     print("file doesn't exist")"""
 
 
-df_train=pd.read_csv("client/public/uploads/Train.csv")
+df_train=pd.read_csv("client/Train.csv")
 df_test=pd.read_csv("client/public/uploads/Test.csv")
 df_train=df_train.dropna()
 df_test=df_test.dropna()
@@ -38,6 +39,8 @@ for n in range(1,K):
     prediction = model.predict(X_test)
     mean_acc[n-1] = metrics.accuracy_score(y_test, prediction)
 print(mean_acc)'''
+
+
 
 params = {"n_estimators": 500, 
     "max_depth": 17, 
@@ -66,4 +69,4 @@ print(prediction)'''
 df_test['Revenue'] =output
 '''prediction'''
 # print(df_test)
-df_test.to_csv("client/public/uploads/output.csv")
+df_test.to_csv("client/public/result/output.csv")

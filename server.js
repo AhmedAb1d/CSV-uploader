@@ -30,7 +30,6 @@ app.post('/upload', (req, res) => {
 
 
 var test = './client/public/uploads/Test.csv'
-var train ='./client/public/uploads/Train.csv'
 if (fs.existsSync(test))
 {
   const python=spawn('python',['script.py']);
