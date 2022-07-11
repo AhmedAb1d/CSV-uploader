@@ -1,0 +1,1 @@
+data)=>{console.log(data.toString())});
