@@ -19,7 +19,7 @@ while (a ==False or b ==False):
     print("file doesn't exist")"""
 
 
-df_train=pd.read_csv("client/Train.csv")
+df_train=pd.read_csv("Train.csv")
 df_test=pd.read_csv("client/public/uploads/Test.csv")
 df_train=df_train.dropna()
 df_test=df_test.dropna()
