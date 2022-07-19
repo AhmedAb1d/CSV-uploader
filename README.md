@@ -11,5 +11,5 @@ npm install //for the dependencies of react
 
 
 You need to install python too with the following libraries:</br>
--pandas
+-pandas </br>
 -scikit-learn
