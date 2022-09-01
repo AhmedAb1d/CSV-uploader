@@ -12,4 +12,8 @@ npm install //for the dependencies of react
 
 You need to install python too with the following libraries:</br>
 -pandas </br>
--scikit-learn
+-scikit-learn</br>
+
+
+
+Note: you can find the datasets to test the model in the folder "datasets"
